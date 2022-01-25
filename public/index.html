@@ -10,37 +10,40 @@
 
     <title>Document</title>
 </head>
-@@ -15,9 +15,34 @@ <h1>My webpage!</h1>
-<h3><sub>Version 1.0.1</sub></h3>
-</div>
 
-<div class="container">
+<body>
+    <div class="container">
+        <h1>My webpage!</h1>
+        <h3><sub>Version 1.1.2</sub></h3>
+    </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Career</th>
-            </tr>
-        </thead>
-        <tbody>
-            <template id="tbodytempl">
+    <div class="container">
+
+        <table>
+            <thead>
                 <tr>
-                    <td><span name="tbodynumber"></span></td>
-                    <td><span name="tbodyname"></span></td>
-                    <td><span name="tbodyage"></span></td>
-                    <td><span name="tbodycareer"></span></td>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Career</th>
                 </tr>
-            </template>
-        </tbody>
-    </table>
-</div>
+            </thead>
+            <tbody>
+                <template id="tbodytempl">
+                    <tr>
+                        <td><span name="tbodynumber"></span></td>
+                        <td><span name="tbodyname"></span></td>
+                        <td><span name="tbodyage"></span></td>
+                        <td><span name="tbodycareer"></span></td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </div>
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="./index.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
